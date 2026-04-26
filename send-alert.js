@@ -147,7 +147,7 @@ function sendSlack(webhookUrl, payload) {
 
 // 메인 실행
 async function main() {
-  const WEBHOOK_URL = process.env.SLACK_WEBHOOK_URL;
+  const WEBHOOK_URL = "https://hooks.slack.com/services/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";
   if (!WEBHOOK_URL) throw new Error('SLACK_WEBHOOK_URL 환경변수가 없습니다.');
 
   console.log('이전 가격 로드 중...');
