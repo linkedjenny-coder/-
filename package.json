@@ -1,9 +1,7 @@
 {
   "name": "seoul-apt-tracker",
   "version": "1.0.0",
-  "description": "서울 대장 아파트 호가 트래커 → Slack 알람 · Claude 토큰 0",
-  "main": "api/send-alert.js",
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   }
 }
